@@ -1,0 +1,1154 @@
+/*-------------------STYLE GENERAL-------------------------------------*/
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(img/background.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+.bodyPortfolio{
+    background: none;
+}
+
+[class*="col-"] {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenu{
+    padding-top: 20px;
+    padding-bottom: 0px; 
+    background: none;
+}
+
+.header {
+    background: #323232;
+    color: white;
+}
+.header h1{
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+}
+
+hr {
+    margin: auto;
+}
+
+.footer {
+    background: #323232;
+    color: dimgray;
+    padding-top: 20px;
+}
+
+a:visited {
+    color: dimgray;
+}
+
+/* --------------MENU NAVIGATION ------------------------*/
+.header ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header li {
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 1.3em;
+}
+
+.header li a, .header li a:visited{
+    color: white;
+}
+
+.header li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2EB398;
+}
+
+.articles {
+    background: #2EB398;
+    margin-bottom: 0px;
+}
+
+/*-------------CARROUSEL ARTICLES -----------------------------------------------*/
+.listeArticles{
+   position: relative;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.controls{
+    position: absolute;
+    top: 45%;
+    color: black;
+    font-size: 1.2em;
+}
+/*---------------------FIN CARROUSEL-------------------------------------------------------*/
+
+/*---------------ARTICLES BLOG--------------------------------------------------------*/
+.article{
+/*    border: solid 1px #2EB398;*/
+    text-align: left;
+    background-color: rgba(250,250,250,0.8);
+    padding: 0px;
+    margin-bottom: 25px;
+}
+.article h2, .article h6, .article p{
+    padding: 0px 15px;
+}
+
+.article h2{
+    color: #2EB398;
+    font-weight: bold;
+}
+
+.resume{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.suite{
+    font-size: 1.3em;
+    background: #2EB398;
+    margin: 0px;
+    padding: 10px 0px 5px 15px !important;
+}
+
+.suite a{
+    color: white;
+}
+
+.articleBlog{
+/*    border: solid 1px #2EB398;*/
+    text-align: left;
+    background-color: rgba(250,250,250,0.8);
+    padding: 0px 30px;
+}
+.articleBlog h2{
+    color: #2EB398;
+    font-weight: bold;
+    border-bottom: solid 1px #2EB398;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+
+.articleBlog h5{
+    border-top: solid 1px #2EB398;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.newCom{
+        font-size: 1.3em;
+    background: #2EB398;
+}
+
+.listeCom{
+/*    border: solid 1px #2EB398;*/
+    text-align: left;
+    background-color: rgba(250,250,250,0.8);
+}
+
+.commentaire{
+    border-bottom: solid 1px #2EB398;
+}
+.commentaire h3{
+    color: #2EB398;
+    font-weight: bold;
+}
+
+.listeCom hr{
+    border: none;
+background: #2EB398;
+height: 2px;
+}
+
+/*---------------CONTACT--------------------------------------------------------*/
+.contact{
+    border: solid 1px #2EB398;
+    text-align: left;
+    background-color: rgba(250, 250, 250, 0.5);
+    height: 100%;
+}
+
+/*---------------------------ADMINISTRATION-------------------------------------------------------*/
+/*------------------------------ACCUEIL ADMIN-----------------------------------------*/
+.vueAdmin, .vueConfirmation, .vueModifCom, .vueErreur{
+    min-height: 700px;
+}
+
+.accueilAdmin, .accueilConnectAdmin{
+    background-color: rgba(250,250,250,0.8);
+    padding: 0px 30px;
+}
+
+.accueilAdmin h1, .accueilConnectAdmin h1{
+    color: #2EB398;
+    font-size: 2em;
+}
+
+.connectAdmin, .disconnectAdmin{
+    margin-top: 10px;
+    color: #2EB398;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.accueilConnectAdmin a, .accueilConnectAdmin a:visited{
+    color: black;
+    line-height: 2;
+    font-size: 1.5em;
+}
+/*
+------------------------------ECRITURE NOUVEAU BILLET-------------------------------*/
+.messageAdmin, .updatePortfolio, .newArticle{
+    background-color: rgba(250,250,250,0.8);
+    padding: 0px 30px;
+}
+
+.messageAdmin h2, .updatePortfolio h2, .newArticle h2{
+    color: #2EB398;
+}
+
+.envoi, .parcourir{
+    margin-top: 10px;
+    color: #2EB398;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+/*-----------------------------------GESTION BLOG----------------------------*/
+.gestionAdmin{
+    background: #323232;
+padding-bottom: 1px;
+color: #2EB398;
+padding-top: 10px;
+}
+
+.gestionAdmin a{
+    color: white;
+}
+
+/*------------------PAGE CONFIRMATION ----------------------------------------*/
+.confirmer{
+    margin-top: 10px;
+    color: #2EB398;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid;
+    font-size: 2em;
+}
+
+/*-----------------------------GESTION COMMENTAIRE--------------------------------*/
+.gestionCom a{
+    color: #323232;
+    font-weight: bold;
+}
+
+/*--------------------------------FIN ADMINISTRATION---------------------------------------------*/
+
+/*------------------------PORTFOLIO-------------------------------------------------------------- */
+.headerGalerie{
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    background: white;
+}
+
+.gallery-title {
+    font-size: 3em;
+    color: #2EB398;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 2px solid #2EB398;
+    padding: 5px 10px;
+    text-align: center;
+    color: #2EB398;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active {
+    color: #ffffff;
+    background-color: #2EB398;
+    outline: none;
+}
+
+.gallery_product {
+    margin: 0px;
+    padding: 0;
+    position: relative;
+}
+
+.gallery_product .img-info {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    overflow: hidden;
+    color: #fff;
+    top: 0;
+    display: none;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info {
+    display: block;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.fancybox-button.fancybox-button--share,
+.fancybox-button.fancybox-button--fullscreen {
+    display: none;
+}
+
+#bouton{
+    margin-top: 20px;
+    color: #2EB398;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    font-size: 1.5em;
+}
+
+#bouton:hover{
+    margin-top: 20px;
+    color: white;
+    background-color: #2EB398;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid;
+    font-size: 1.5em;
+}
+/*--------------FIN PORTFOLIO ---------------------------------------------------------------- */
+
+/*----------------------SLIDER IMAGES-------------------------------------------------------------*/
+/*
+ * CSS Fadeshow by @alexerlandsson
+ * This is a fadeshow built in CSS and with customization in focus.
+ * Supports quick navigation, prev/next navigation and autoplay.
+ * 
+ * For better documentation and implementation guide, check out the GitHub repository:
+ * https://github.com/alexerlandsson/css-fadeshow
+*/
+/*
+ * ===== VARIABLES =====
+ *
+ * Change these variables to match your preferences. For a more detailed
+ * description of what each variable do, visit https://github.com/alexerlandsson/css-fadeshow
+ */
+/*
+ * ===== MIXINS =====
+ *
+ * This section contains mixin used
+ * Do not change anything here unless you know what you are doing.
+ */
+/* Mixins to handle prefixes */
+/* Mixins to handle Quick Navigation Button states */
+/*
+ * ===== FADESHOW =====
+ *
+ * Base functionality for the fadeshow.
+ * Do not change anything here unless you know what you are doing.
+ */
+[data-am-fadeshow] {
+  margin-top: -20px;
+  position: relative;
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+  background-color: #fff;
+  /* Slides */
+  /* Quick Navigation */
+  /* Prev/Next Navigation */
+  /* Base functionality */
+  /* Autohide Prev/Next Navigation */
+}
+[data-am-fadeshow] .fs-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  /* Display first child on load */
+}
+[data-am-fadeshow] .fs-slide:first-child {
+  opacity: 1;
+}
+[data-am-fadeshow] .fs-quick-nav {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+[data-am-fadeshow] .fs-quick-btn {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Set active state to first button on load */
+}
+[data-am-fadeshow] .fs-quick-btn:hover {
+  opacity: 0.8;
+}
+[data-am-fadeshow] .fs-quick-btn:first-child {
+  background-color: coral;
+}
+[data-am-fadeshow] .fs-prev-btn, [data-am-fadeshow] .fs-next-btn {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  cursor: pointer;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-prev-btn, [data-am-fadeshow] .fs-next-btn {
+    width: 50%;
+  }
+}
+[data-am-fadeshow] .fs-prev-btn:before, [data-am-fadeshow] .fs-next-btn:before {
+  position: absolute;
+  top: 50%;
+  font-size: 3vw;
+  color: rgba(255, 255, 255, 0.5);
+}
+[data-am-fadeshow] .fs-prev-btn:hover, [data-am-fadeshow] .fs-next-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-prev-btn:hover, [data-am-fadeshow] .fs-next-btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+[data-am-fadeshow] .fs-prev-btn {
+  left: 0;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+[data-am-fadeshow] .fs-prev-btn:before {
+  content: "❮";
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-prev-btn:before {
+    left: 30px;
+  }
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-prev-btn {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+[data-am-fadeshow] .fs-next-btn {
+  right: 0;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+[data-am-fadeshow] .fs-next-btn:before {
+  content: "❯";
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-next-btn:before {
+    right: 30px;
+  }
+}
+@media (max-width: 500px) {
+  [data-am-fadeshow] .fs-next-btn {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+[data-am-fadeshow] input[type="radio"] {
+  position: fixed;
+  top: -9999px;
+}
+[data-am-fadeshow] input[type="radio"]:checked {
+  /* This loop handles the slide switching and quick navigation active state */
+  /* Hide navigation if only one slide */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) {
+  /* Show slide */
+  /* Add active state to dot */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) ~ .fs-slides .fs-slide {
+  opacity: 0;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) ~ .fs-slides .fs-slide:nth-child(5) {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) ~ .fs-quick-nav .fs-quick-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cancel autoplay */
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) ~ .fs-quick-nav .fs-quick-btn:nth-child(5) {
+  background-color: coral;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(5) ~ .fs-quick-nav .fs-quick-btn:nth-child(5):hover {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) {
+  /* Show slide */
+  /* Add active state to dot */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) ~ .fs-slides .fs-slide {
+  opacity: 0;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) ~ .fs-slides .fs-slide:nth-child(4) {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) ~ .fs-quick-nav .fs-quick-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cancel autoplay */
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) ~ .fs-quick-nav .fs-quick-btn:nth-child(4) {
+  background-color: coral;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(4) ~ .fs-quick-nav .fs-quick-btn:nth-child(4):hover {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) {
+  /* Show slide */
+  /* Add active state to dot */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) ~ .fs-slides .fs-slide {
+  opacity: 0;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) ~ .fs-slides .fs-slide:nth-child(3) {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) ~ .fs-quick-nav .fs-quick-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cancel autoplay */
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) ~ .fs-quick-nav .fs-quick-btn:nth-child(3) {
+  background-color: coral;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(3) ~ .fs-quick-nav .fs-quick-btn:nth-child(3):hover {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) {
+  /* Show slide */
+  /* Add active state to dot */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) ~ .fs-slides .fs-slide {
+  opacity: 0;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) ~ .fs-slides .fs-slide:nth-child(2) {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) ~ .fs-quick-nav .fs-quick-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cancel autoplay */
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) ~ .fs-quick-nav .fs-quick-btn:nth-child(2) {
+  background-color: coral;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(2) ~ .fs-quick-nav .fs-quick-btn:nth-child(2):hover {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) {
+  /* Show slide */
+  /* Add active state to dot */
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) ~ .fs-slides .fs-slide {
+  opacity: 0;
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) ~ .fs-slides .fs-slide:nth-child(1) {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) ~ .fs-quick-nav .fs-quick-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Cancel autoplay */
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) ~ .fs-quick-nav .fs-quick-btn:nth-child(1) {
+  background-color: coral;
+}
+[data-am-fadeshow] input[type="radio"]:checked:nth-of-type(1) ~ .fs-quick-nav .fs-quick-btn:nth-child(1):hover {
+  opacity: 1;
+}
+[data-am-fadeshow] input[type="radio"]:checked:first-of-type:last-of-type ~ .fs-quick-nav,
+[data-am-fadeshow] input[type="radio"]:checked:first-of-type:last-of-type ~ .fs-prev-nav,
+[data-am-fadeshow] input[type="radio"]:checked:first-of-type:last-of-type ~ .fs-next-nav {
+  display: none !important;
+}
+[data-am-fadeshow]:hover .fs-prev-btn,
+[data-am-fadeshow]:hover .fs-next-btn {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/*
+ * ===== PREV/NEXT NAVIGATION =====
+ *
+ * This section handles the prev/next navigation.
+ */
+/* Handle Prev/Next buttons */
+[data-am-fadeshow~="next-prev-navigation"] {
+  /* Display first pair of Prev/Next Buttons on load */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(5) {
+  /* Show previous button */
+  /* Show next button */
+  /* Show last prev button if first slide */
+  /* Show first next button if last slide */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(5) ~ .fs-prev-nav .fs-prev-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(5) ~ .fs-prev-nav .fs-prev-btn:nth-child(4) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(5):first-of-type ~ .fs-prev-nav .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(5):last-of-type ~ .fs-next-nav .fs-next-btn:first-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4) {
+  /* Show previous button */
+  /* Show next button */
+  /* Show last prev button if first slide */
+  /* Show first next button if last slide */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4) ~ .fs-prev-nav .fs-prev-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4) ~ .fs-prev-nav .fs-prev-btn:nth-child(3) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4) ~ .fs-next-nav .fs-next-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4) ~ .fs-next-nav .fs-next-btn:nth-child(5) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4):first-of-type ~ .fs-prev-nav .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(4):last-of-type ~ .fs-next-nav .fs-next-btn:first-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3) {
+  /* Show previous button */
+  /* Show next button */
+  /* Show last prev button if first slide */
+  /* Show first next button if last slide */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3) ~ .fs-prev-nav .fs-prev-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3) ~ .fs-prev-nav .fs-prev-btn:nth-child(2) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3) ~ .fs-next-nav .fs-next-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3) ~ .fs-next-nav .fs-next-btn:nth-child(4) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3):first-of-type ~ .fs-prev-nav .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(3):last-of-type ~ .fs-next-nav .fs-next-btn:first-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2) {
+  /* Show previous button */
+  /* Show next button */
+  /* Show last prev button if first slide */
+  /* Show first next button if last slide */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2) ~ .fs-prev-nav .fs-prev-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2) ~ .fs-prev-nav .fs-prev-btn:nth-child(1) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2) ~ .fs-next-nav .fs-next-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2) ~ .fs-next-nav .fs-next-btn:nth-child(3) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2):first-of-type ~ .fs-prev-nav .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(2):last-of-type ~ .fs-next-nav .fs-next-btn:first-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(1) {
+  /* Show previous button */
+  /* Show next button */
+  /* Show last prev button if first slide */
+  /* Show first next button if last slide */
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(1) ~ .fs-next-nav .fs-next-btn {
+  display: none;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(1) ~ .fs-next-nav .fs-next-btn:nth-child(2) {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(1):first-of-type ~ .fs-prev-nav .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] input[type="radio"]:checked:nth-of-type(1):last-of-type ~ .fs-next-nav .fs-next-btn:first-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] .fs-prev-btn:last-child {
+  display: block;
+}
+[data-am-fadeshow~="next-prev-navigation"] .fs-next-btn:nth-child(2) {
+  display: block;
+}
+
+/*
+ * ===== AUTOPLAY =====
+ *
+ * Functions to handle autoplay.
+ * If you're not going to use autoplay, set $autoplay to false.
+ * This part tends to compile into a lot of uneccesary CSS otherwise.
+ */
+@keyframes quickNavAnimation-5 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  4%,
+			20% {
+    background-color: coral;
+  }
+  24%,
+			100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@-webkit-keyframes quickNavAnimation-5 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  4%,
+				20% {
+    background-color: coral;
+  }
+  24%,
+				100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes slidesAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+  4%,
+			20% {
+    opacity: 1;
+  }
+  24%,
+			100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slidesAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+  4%,
+				20% {
+    opacity: 1;
+  }
+  24%,
+				100% {
+    opacity: 0;
+  }
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type {
+  /* Slide animation */
+  /* Quick navigation animation */
+  /* Animation Delay */
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide {
+  -webkit-animation: slidesAnimation-5 25s infinite;
+  animation: slidesAnimation-5 25s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn {
+  -webkit-animation: quickNavAnimation-5 25s infinite;
+  animation: quickNavAnimation-5 25s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide:nth-child(1),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(1) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide:nth-child(2),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide:nth-child(3),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(3) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide:nth-child(4),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(4) {
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-slides .fs-slide:nth-child(5),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(5):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(5) {
+  -webkit-animation-delay: 19s;
+  animation-delay: 19s;
+}
+
+@keyframes quickNavAnimation-4 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  5%,
+			25% {
+    background-color: coral;
+  }
+  30%,
+			100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@-webkit-keyframes quickNavAnimation-4 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  5%,
+				25% {
+    background-color: coral;
+  }
+  30%,
+				100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes slidesAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+  5%,
+			25% {
+    opacity: 1;
+  }
+  30%,
+			100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slidesAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+  5%,
+				25% {
+    opacity: 1;
+  }
+  30%,
+				100% {
+    opacity: 0;
+  }
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type {
+  /* Slide animation */
+  /* Quick navigation animation */
+  /* Animation Delay */
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-slides .fs-slide {
+  -webkit-animation: slidesAnimation-4 20s infinite;
+  animation: slidesAnimation-4 20s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-quick-nav .fs-quick-btn {
+  -webkit-animation: quickNavAnimation-4 20s infinite;
+  animation: quickNavAnimation-4 20s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-slides .fs-slide:nth-child(1),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(1) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-slides .fs-slide:nth-child(2),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-slides .fs-slide:nth-child(3),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(3) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-slides .fs-slide:nth-child(4),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(4):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(4) {
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+}
+
+@keyframes quickNavAnimation-3 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  6.66667%,
+			33.33333% {
+    background-color: coral;
+  }
+  40%,
+			100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@-webkit-keyframes quickNavAnimation-3 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  6.66667%,
+				33.33333% {
+    background-color: coral;
+  }
+  40%,
+				100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes slidesAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+  6.66667%,
+			33.33333% {
+    opacity: 1;
+  }
+  40%,
+			100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slidesAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+  6.66667%,
+				33.33333% {
+    opacity: 1;
+  }
+  40%,
+				100% {
+    opacity: 0;
+  }
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type {
+  /* Slide animation */
+  /* Quick navigation animation */
+  /* Animation Delay */
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-slides .fs-slide {
+  -webkit-animation: slidesAnimation-3 15s infinite;
+  animation: slidesAnimation-3 15s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-quick-nav .fs-quick-btn {
+  -webkit-animation: quickNavAnimation-3 15s infinite;
+  animation: quickNavAnimation-3 15s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-slides .fs-slide:nth-child(1),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(1) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-slides .fs-slide:nth-child(2),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-slides .fs-slide:nth-child(3),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(3):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(3) {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+}
+
+@keyframes quickNavAnimation-2 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  10%,
+			50% {
+    background-color: coral;
+  }
+  60%,
+			100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@-webkit-keyframes quickNavAnimation-2 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  10%,
+				50% {
+    background-color: coral;
+  }
+  60%,
+				100% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes slidesAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+  10%,
+			50% {
+    opacity: 1;
+  }
+  60%,
+			100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slidesAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+  10%,
+				50% {
+    opacity: 1;
+  }
+  60%,
+				100% {
+    opacity: 0;
+  }
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type {
+  /* Slide animation */
+  /* Quick navigation animation */
+  /* Animation Delay */
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-slides .fs-slide {
+  -webkit-animation: slidesAnimation-2 10s infinite;
+  animation: slidesAnimation-2 10s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-quick-nav .fs-quick-btn {
+  -webkit-animation: quickNavAnimation-2 10s infinite;
+  animation: quickNavAnimation-2 10s infinite;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-slides .fs-slide:nth-child(1),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(1) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-slides .fs-slide:nth-child(2),
+[data-am-fadeshow~="autoplay"] input[type="radio"]:nth-of-type(2):last-of-type ~ .fs-quick-nav .fs-quick-btn:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+/*----------------------------FIN SLIDER IMAGE------------------------------------------*/
+
+/*----------------------------- BACK TO TOP -------------------------------------------------*/
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #696969;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
+/*---------------------FIN BACK TO TOP -------------------------------------------*/
